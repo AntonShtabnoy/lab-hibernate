@@ -11,6 +11,8 @@ public class HelloWorldHibernate {
 
 	private static final String PERSISTENT_UNIT = "hello-world-hibernate";
 
+	//hello
+
 	public static void main(String a[]) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory(PERSISTENT_UNIT);
 		EntityManager em = emf.createEntityManager();
